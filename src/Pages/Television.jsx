@@ -4,7 +4,7 @@ import db from "../utils/firebase";
 import { getDatabase, ref, onValue } from "firebase/database";
 
 import { Canvas } from "./Canvas";
-import { Spinner } from "../Components/Spinner";
+import { Spinner } from "../components/Spinner";
 
 export default Television = () => {
   const [channels, setChannels] = useState(null);
