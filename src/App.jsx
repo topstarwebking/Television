@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Canvas } from "./Pages/Canvas";
+import { Canvas } from "./pages/Canvas";
 // import { AllChannels } from "./Components/AllChannels";
 import { Television } from "./pages/Television";
 
