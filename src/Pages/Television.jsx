@@ -6,7 +6,7 @@ import { getDatabase, ref, onValue } from "firebase/database";
 import { Canvas } from "./Canvas";
 import { Spinner } from "../components/Spinner";
 
-export const Television = () => {
+const Television = () => {
   const [channels, setChannels] = useState(null);
   const [current, setCurrent] = useState(0);
   const [isLoading, setLoading] = useState(true);
@@ -58,3 +58,5 @@ export const Television = () => {
     </>
   );
 };
+
+export default Television;
