@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
+import { lazy } from "react";
 // import Television from "./pages/Television";
 // import { AllChannels } from "./Components/AllChannels";
-import Television from "./pages/PageTelevision";
+const Television = lazy(() => import("./pages/Television"));
 
-const App = () => {
+function App() {
   return (
-    <>
+    <Suspense fallback={null}>
       <Television />
-    </>
+    </Suspense>
   );
-};
+}
 
 export default App;
