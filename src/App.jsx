@@ -1,12 +1,12 @@
 import { useState } from "react";
+import { Television } from "./pages/Television";
 // import { AllChannels } from "./Components/AllChannels";
-import Television from "./pages/Television";
 
 function App() {
   return (
-    <div>
+    <>
       <Television />
-    </div>
+    </>
   );
 }
 
