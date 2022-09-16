@@ -4,9 +4,9 @@ import Television from "./pages/Television";
 
 function App() {
   return (
-    <>
+    <div>
       <Television />
-    </>
+    </div>
   );
 }
 
